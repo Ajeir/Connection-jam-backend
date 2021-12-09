@@ -1,0 +1,29 @@
+{
+  "name": "connection-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajeir/Connection-jam-backend.git"
+  },
+  "keywords": [
+    "MERN"
+  ],
+  "author": "ajeir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajeir/Connection-jam-backend/issues"
+  },
+  "homepage": "https://github.com/Ajeir/Connection-jam-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
