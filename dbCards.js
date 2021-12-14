@@ -1,8 +1,8 @@
-import { Mongoose } from "mongoose";
+import mongoose from "mongoose";
 
-const cardSchema = Mongoose.Schema({
+const cardSchema = mongoose.Schema({
     name: String,
-    imgUrl: String,
+    imgurl: String,
 })
 
-export default Mongoose.model('cards', cardSchema);
+export default mongoose.model('cards', cardSchema);
